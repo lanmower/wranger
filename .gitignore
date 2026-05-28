@@ -4,7 +4,6 @@ node_modules/
 dist/
 .wrangler/
 .dev.vars
-.env
 .auth_token
 # >>> gm managed (do not edit between markers)
 .gm-stop-verified
@@ -26,3 +25,4 @@ dist/
 .gm/exec-spool.started
 # tracked: .gm/rs-learn.db, .gm/code-search/, AGENTS.md, .gm/prd.yml
 # <<< gm managed
+config.bat

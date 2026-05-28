@@ -1,7 +1,7 @@
 {
   "name": "@lanmower/wranger",
-  "version": "1.1.0",
-  "description": "Cloudflare Worker proxy — routes HTTP/WS traffic with CORS and bearer auth",
+  "version": "1.1.1",
+  "description": "Cloudflare Worker proxy \u2014 routes HTTP/WS traffic with CORS and bearer auth",
   "main": "bin/wranger.js",
   "bin": {
     "wranger": "bin/wranger.js"
@@ -25,6 +25,8 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^3.3.2",
     "wrangler": "^3.0.0"
   }
 }
